@@ -1,6 +1,7 @@
 #include"stack.h"
 #include<ostream>
 #include<cstring>
+#include<string>
 using namespace std;
 int main()
 {
@@ -13,6 +14,6 @@ int main()
 	cout<<s.stackPop()<<endl;
 	cout<<s.stackTop()<<endl;
 	cout<<s.stackPop()<<endl;
-	for(int i=0;i<strlen(s.inf);cout<<s.inf[i++]);
+	cout<<s.inf;
 	return 0;
 }

@@ -1,6 +1,6 @@
 #include"stack.h"
 #include<ostream>
-#include<cstring.h>
+#include<cstring>
 using namespace std;
 int main()
 {

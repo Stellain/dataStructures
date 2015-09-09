@@ -31,10 +31,11 @@ int stack::stackTop()
 	else 
 		return 0;
 }
+const string stack::inf="DONE BY STELLA";
 stack::stack()
 {
 	top=0;
-	strcpy(inf,"DONE BY STELLA");
+	//strcpy(inf,"DONE BY STELLA");
 }
 
 
