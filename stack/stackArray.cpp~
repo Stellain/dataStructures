@@ -1,4 +1,4 @@
-#include<stack.h>
+#include"stack.h"
 
 void stack::stackPush(int number)
 {
@@ -14,7 +14,7 @@ int stack::stackPop()
 	if(top)
 		return a[--top];
 	else
-		return NULL;
+		return 0;
 }
 
 bool stack::isEmpty()
@@ -29,7 +29,11 @@ int stack::stackTop()
 	if(top)
 		return a[top-1];
 	else 
-		return NULL;
+		return 0;
+}
+stack::stack()
+{
+	top=0;
 }
 
 

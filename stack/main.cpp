@@ -9,8 +9,8 @@ int main()
 	s.stackPush(6);
 	if(s.isEmpty())
 		cout<<" Stack is empty \n";
-	cout<<s.stackPop();
-	cout<<s.stackTop();
-	cout<<s.stackPop();
+	cout<<s.stackPop()<<endl;
+	cout<<s.stackTop()<<endl;
+	cout<<s.stackPop()<<endl;
 	return 0;
 }
