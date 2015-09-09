@@ -31,7 +31,7 @@ int stack::stackTop()
 	else 
 		return 0;
 }
-const string stack::inf="DONE BY STELLA";
+const std::string stack::inf="DONE BY STELLA \n";
 stack::stack()
 {
 	top=0;

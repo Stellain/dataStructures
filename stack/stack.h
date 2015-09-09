@@ -1,12 +1,12 @@
 #include<iostream>
 #include<string>
-using namespace std;
+
 class stack{
 	private:
 		int a[10];
 		int top;
 	public:
-		static const string inf;
+		static const std::string inf;
 		void stackPush(int );
 		int stackPop();
 		bool isEmpty();
