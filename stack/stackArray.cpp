@@ -1,4 +1,4 @@
-#include<stack.h>
+#include"stack.h"
 
 void stack::stackPush(int number)
 {

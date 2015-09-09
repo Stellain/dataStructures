@@ -28,6 +28,8 @@ int stack::stackTop()
 {
 	if(top)
 		return a[top-1];
+	else 
+		return NULL;
 }
 
 
