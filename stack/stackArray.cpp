@@ -1,32 +1,29 @@
-#include<iostream.h>
+#include<iostream>
+
+class stack{
 int a[10];
 int top=0;
-class stack{
+public:
 void stackPush(int );
-void stackPop();
-void isEmpty();
+int stackPop();
+bool isEmpty();
 } s;
-void stackPush(int number){
+void stack::stackPush(int number){
 if(10-top){
 a[top]=number;
-cout>>" Succefully inserted element into stack \n"
-else
-cout>>"Stack is Full \n";
 }
-void stackPop(){
+int stack::stackPop(){
 if(top)
-cout>>a[--top];
+return a[top--];
 else
-cout>>" Stack is empty \n";
+return NULL;
 }
-void isEmpty(){
+bool stack::isEmpty(){
 if(top||10-top)
-cout>>"Stack is niether empty nor full \n";
+return TRUE;
 else
 if(top)
-cout>>"Stack is full \n";
-else
-cout>>'Stack is empty \n";
+return FALSE;
 }
 
 void main(){
