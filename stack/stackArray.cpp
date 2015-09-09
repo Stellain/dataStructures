@@ -12,7 +12,7 @@ void stack::stackPush(int number)
 int stack::stackPop()
 {
 	if(top)
-		return a[top--];
+		return a[--top];
 	else
 		return NULL;
 }

@@ -1,24 +1,28 @@
 #include<stack.h>
 
-void stack::stackPush(int number){
-if(10-top){
-a[top]=number;
-top++;
-}
-}
-
-int stack::stackPop(){
-if(top)
-return a[top--];
-else
-return NULL;
+void stack::stackPush(int number)
+{
+	if(10-top)
+	{
+		a[top]=number;
+		top++;
+	}
 }
 
-bool stack::isEmpty(){
-if(top)
-return false;
-else
-return true;
+int stack::stackPop()
+{
+	if(top)
+		return a[top--];
+	else
+		return NULL;
+}
+
+bool stack::isEmpty()
+{
+	if(top)
+		return false;
+	else
+		return true;
 }
 
 
