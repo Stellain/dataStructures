@@ -34,7 +34,7 @@ int stack::stackTop()
 stack::stack()
 {
 	top=0;
-	char c[14]="DONE BY STELLA";
+	char c[15]="DONE BY STELLA";
 	strcpy(inf,c);
 }
 
