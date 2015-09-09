@@ -24,5 +24,10 @@ bool stack::isEmpty()
 	else
 		return true;
 }
+int stack::stackTop()
+{
+	if(top)
+		return a[top-1];
+}
 
 
