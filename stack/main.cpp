@@ -3,9 +3,12 @@
 void main()
 {
 	stack s,s1,s2;
-	s1.stackPush(12);
+	s.stackPush(12);
 	s.stackPush(5);
 	s.stackPush(6);
-	s.isEmpty();
-	s.stackPop();
+	if(s.isEmpty())
+		cout<<" Stack is empty \n";
+	cout<<s.stackPop();
+	cout<<s.top();
+	cout<<s.stackPop();
 }

@@ -7,4 +7,5 @@ class stack{
 		void stackPush(int );
 		int stackPop();
 		bool isEmpty();
+		int stackTop();
 };
