@@ -13,11 +13,10 @@ else
 return NULL;
 }
 bool stack::isEmpty(){
-if(top && 10-top)
-return true;
-else
 if(top)
 return false;
+else
+return true;
 }
 
 
