@@ -4,7 +4,7 @@ class stack{
 	int a[10];
 	int top=0;
 	public:
-		char const info[]=" THIS IS CUSTOM STACK DESIGNED BY STELLA " 
+		const char const info[]=" THIS IS CUSTOM STACK DESIGNED BY STELLA " 
 		void stackPush(int );
 		int stackPop();
 		bool isEmpty();
