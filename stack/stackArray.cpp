@@ -1,13 +1,5 @@
-#include<iostream>
+#include<stack.h>
 
-class stack{
-int a[10];
-int top=0;
-public:
-void stackPush(int );
-int stackPop();
-bool isEmpty();
-} s;
 void stack::stackPush(int number){
 if(10-top){
 a[top]=number;
@@ -26,9 +18,4 @@ if(top)
 return FALSE;
 }
 
-void main(){
-s.stackPush(5);
-s.stackPush(6);
-s.isEmpty();
-s.stackPop();
-}
+
