@@ -1,0 +1,8 @@
+#include<iostream>
+
+int main()
+{
+	int a=-17;
+	std::cout<<(a>>31);
+	return 0;
+}
