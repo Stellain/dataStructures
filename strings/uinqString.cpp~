@@ -1,0 +1,21 @@
+/*To determine whether the string has all unique charaters*/
+
+#include<iostream>
+#include<cstdlib>
+int main()
+{
+	char array[10]="abcdefgha";
+	for(int i=1;array[i]!='\0';i++)
+	{
+		for(int j=i-1;j>=0;j--)
+		{
+			if(array[i]==array[j])
+			{
+				std::cout<<"THE STRING DOESN'T HAVE ALL UNIQUE CHARATERS\n";
+				exit(0);
+			}
+		}
+	}
+	std::cout<<"THE STRING HAS ALL UNIQUE CHARATERS\n";
+	return 0;
+}
