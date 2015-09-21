@@ -2,9 +2,11 @@
 
 #include<iostream>
 #include<cstdlib>
+
 int main()
 {
-	char array[10]="ibcdefgha";
+	char array[20];
+	std::cin>>array;
 	for(int i=1;array[i]!='\0';i++)
 	{
 		for(int j=i-1;j>=0;j--)
